@@ -1,0 +1,19 @@
+/* o nome Module no arquivo chamando Header.module.css para fazer com o que este arquivo fique atrelado ao componente no qual estilizando */
+
+.header {
+    background-color: var(--gray-800);
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    padding: 1.25rem 0;
+    height: 80px;
+}
+
+.header img{
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.header strong{
+    font-size: 1.5rem;
+}
