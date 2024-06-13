@@ -9,8 +9,8 @@ export default function Posts() {
       <header>
         <div className={styles.author}>
           <Avatar
-          hasBorder 
-          imgUri='https://avatars.githubusercontent.com/u/134658180?v=4'
+            hasBorder 
+            src='https://avatars.githubusercontent.com/u/134658180?v=4'
           />
           <div className={styles.authorInfo}>
             <strong>Igor Nascimento</strong>

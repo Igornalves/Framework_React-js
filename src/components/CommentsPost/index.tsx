@@ -6,7 +6,7 @@ export default function CommentsPost() {
    return(
        <div className={styles.comment}>
         <Avatar
-        imgUri="https://avatars.githubusercontent.com/u/134658180?v=4" 
+            src="https://avatars.githubusercontent.com/u/134658180?v=4" 
         />
         <div className={styles.commentBox}>
             <div className={styles.commentContent}>
