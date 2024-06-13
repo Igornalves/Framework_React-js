@@ -1,5 +1,6 @@
-import CommentsPost from '../CommentsPost/Comments';
-import FormsPost from '../FormsPost/Forms';
+import Avatar from '../Avatar';
+import CommentsPost from '../CommentsPost';
+import FormsPost from '../FormsPost';
 import styles from './Posts.module.css';
 
 export default function Posts() {
@@ -7,7 +8,10 @@ export default function Posts() {
     <aside className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img src='https://avatars.githubusercontent.com/u/134658180?v=4'/>
+          <Avatar
+          hasBorder 
+          imgUri='https://avatars.githubusercontent.com/u/134658180?v=4'
+          />
           <div className={styles.authorInfo}>
             <strong>Igor Nascimento</strong>
             <span>Web Developer</span>  
