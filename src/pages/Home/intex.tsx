@@ -9,7 +9,18 @@ export default function Home() {
             <Header/>
             <div className={styles.home}>
                 <SideBar/>
-                <Posts/>
+                <main>
+                    <Posts
+                        id={23}
+                        avartaUrl=''
+                        contentP1=''
+                        contentP2=''
+                        contentLink=''
+                        contentText=''
+                        publishedAt=''
+                        publishedATitlet=''
+                    />
+                </main>
             </div>
         </div>
     );
